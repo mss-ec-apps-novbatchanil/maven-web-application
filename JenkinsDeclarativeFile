@@ -9,7 +9,7 @@ options {
 
 triggers {
   //cron '* * * * *'
-  //pollSCM '* * * * *'
+  pollSCM '* * * * *'
 }
 
 tools {
