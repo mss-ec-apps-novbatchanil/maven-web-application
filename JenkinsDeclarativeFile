@@ -32,7 +32,6 @@ tools {
       }
     }
 
-<!--
     stage('SonarqubeReport') {
       steps {
     sh "mvn clean sonar:sonar"
@@ -52,7 +51,6 @@ tools {
 }
       }
     }
--->
 
   }//stages closing
   
